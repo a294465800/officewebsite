@@ -135,12 +135,15 @@ header .bg {
 }
 #picture_rolling .item:nth-child(2) {
     background: url("../images/picture2.png") no-repeat;
+    background-size: cover
 }
 #picture_rolling .item:nth-child(3) {
     background: url("../images/picture3.png") no-repeat;
+    background-size: cover
 }
 #picture_rolling .item:nth-child(4) {
     background: url("../images/picture4.png") no-repeat;
+    background-size: cover
 }
 /*
     第二部分
@@ -300,7 +303,7 @@ header .bg {
 .section3 .responsive .responsive_logo {
     display: inline-block;
     text-align: center;
-    margin: 0 0 50px;
+    margin: 0 0 60px;
 }
 .section3 .responsive .responsive_logo i {
     display: block;
@@ -318,7 +321,7 @@ header .bg {
 }
 .section3 .responsive .responsive_part {
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 50px;
     vertical-align: top;
 }
 .section3 .responsive .responsive_part ul {

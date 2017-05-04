@@ -9,12 +9,8 @@ $(function(){
         sectionsColor : ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90','#333','#0f0'],
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
         menu: '#menu',
-        loopBottom: true
+        scrollingSpeed: 400
     });
-
-    setInterval(function(){
-        $.fn.fullpage.moveSlideRight();
-    }, 3000);
 /*
     $(window).resize(function(){
         autoScrolling();
