@@ -15,6 +15,7 @@ body {
     text-align: center;
     font: 30px "Microsoft Yahei";
     color: #fff;
+    display: block;
 }
 
 /*
@@ -31,7 +32,7 @@ header {
 header .logo {
     position: fixed;
     left: 18px;
-    top: 12px;
+    top: 10px;
 }
 header .logo img {
     vertical-align: middle;
@@ -74,6 +75,17 @@ header .header_phone {
     position: fixed;
     top: 0;
     right: 18px;
+    height: 70px;
+}
+header .header_phone i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/icons.png") no-repeat;
+    margin-right: 10px;
+    position: relative;
+    top: 9px;
+    left: 0;
 }
 header .header_phone span {
     font: bold 20px/70px Arial;
@@ -142,7 +154,7 @@ header .bg {
 }
 .section2 .we_do h3 {
     font: normal 24px/50px "微软雅黑";
-    color: #000;
+    color: #333;
 }
 .section2 .we_do .sever_list {
     display: inline-block;
@@ -281,4 +293,98 @@ header .bg {
 .section3 {
     background: url("../images/2.jpg") 50%;
     background-size: cover;
+}
+.section3 .responsive {
+    text-align: center;
+}
+.section3 .responsive .responsive_logo {
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 50px;
+}
+.section3 .responsive .responsive_logo i {
+    display: block;
+    width: 240px;
+    height: 37px;
+    margin: 0 auto;
+    background: url("../images/contents.png") no-repeat 0 -576px;
+}
+.section3 .responsive .responsive_logo span {
+    font: normal 24px "微软雅黑";
+    color: #fff;
+}
+.section3 .responsive .responsive_item {
+    margin: 0 auto;
+}
+.section3 .responsive .responsive_part {
+    display: inline-block;
+    margin: 0 40px;
+    vertical-align: top;
+}
+.section3 .responsive .responsive_part ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.section3 .responsive .responsive_part ul li {
+    display: inline-block;
+    margin: 0 8px 0 7px;
+}
+.section3 .responsive .responsive_part p {
+    font: normal 14px/36px "微软雅黑";
+    color: #e1e1e1;
+    text-align: center;
+
+}
+
+/*第三页下的图片修改*/
+.section3 .responsive .responsive_part .mobile {
+    width: 14px;
+    height: 27px;
+    background: url("../images/icons.png") no-repeat 0 -264px;
+}
+.section3 .responsive .responsive_part .pad {
+    width: 29px;
+    height: 23px;
+    background: url("../images/icons.png") no-repeat -71px -264px;
+}
+.section3 .responsive .responsive_part .pc {
+    width: 35px;
+    height: 27px;
+    background: url("../images/icons.png") no-repeat 0 -303px;
+}
+.section3 .responsive .responsive_part .ie {
+    width: 28px;
+    height: 28px;
+    background: url("../images/icons.png") no-repeat 0 -392px;
+}
+.section3 .responsive .responsive_part .chrome {
+    width: 30px;
+    height: 30px;
+    background: url("../images/icons.png") no-repeat -71px -392px;
+}
+.section3 .responsive .responsive_part .firefox {
+    width: 32px;
+    height: 30px;
+    background: url("../images/icons.png") no-repeat 0 -432px;
+}
+.section3 .responsive .responsive_part .safari {
+    width: 30px;
+    height: 32px;
+    background: url("../images/icons.png") no-repeat -71px -432px;
+}
+.section3 .responsive .responsive_part .window {
+    width: 27px;
+    height: 27px;
+    background: url("../images/icons.png") no-repeat -73px -304px;
+}
+.section3 .responsive .responsive_part .ios {
+    width: 24px;
+    height: 30px;
+    background: url("../images/icons.png") no-repeat 0 -344px;
+}
+.section3 .responsive .responsive_part .android {
+    width: 28px;
+    height: 29px;
+    background: url("../images/icons.png") no-repeat -73px -345px;
 }
