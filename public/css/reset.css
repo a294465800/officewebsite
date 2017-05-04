@@ -57,3 +57,9 @@ input, select {
 .clearfix{
     *zoom:1;/*IE/7/6*/
 }
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}

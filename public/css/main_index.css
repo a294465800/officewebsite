@@ -105,6 +105,7 @@ header .bg {
     z-index: -1;
     background-color: rgb(51, 51, 51);
     opacity: .6;
+    filter: alpha(opacity:60);
 }
 
 /*
@@ -212,7 +213,7 @@ header .bg {
     background: none;
 }
 .section2 .we_do .sever_list li:hover i{
-    background: url("../images/contents.png") no-repeat -168px -357px;
+    background-position: -168px -357px;
 }
 .section2 .we_do .sever_list li:hover p {
     top: 10px;
@@ -222,31 +223,31 @@ header .bg {
 */
 .section2 .we_do .sever_list li:nth-child(2) i {
     width: 64px;
-    background: url("../images/contents.png") no-repeat -416px -291px;
+    background-position: -416px -291px;
 }
 .section2 .we_do .sever_list li:nth-child(2):hover i{
-    background: url("../images/contents.png") no-repeat -337px -291px;
+    background-position: -337px -291px;
 }
 .section2 .we_do .sever_list li:nth-child(3) i {
     width: 76px;
-    background: url("../images/contents.png") no-repeat -415px -362px;
+    background-position: -415px -362px;
 }
 .section2 .we_do .sever_list li:nth-child(3):hover i{
-    background: url("../images/contents.png") no-repeat -327px -362px;
+    background-position: -327px -362px;
 }
 .section2 .we_do .sever_list li:nth-child(4) i {
     width: 74px;
-    background: url("../images/contents.png") no-repeat -244px -439px;
+    background-position: -244px -439px;
 }
 .section2 .we_do .sever_list li:nth-child(4):hover i{
-    background: url("../images/contents.png") no-repeat -164px -439px;
+    background-position: -164px -439px;
 }
 .section2 .we_do .sever_list li:nth-child(5) i {
     width: 79px;
-    background: url("../images/contents.png") no-repeat -420px -439px;
+    background-position: -420px -439px;
 }
 .section2 .we_do .sever_list li:nth-child(5):hover i{
-    background: url("../images/contents.png") no-repeat -335px -439px;
+    background-position: -335px -439px;
 }
 /*
     不同宽度媒体修改
@@ -449,7 +450,7 @@ header .bg {
     width: 54px;
     height: 70px;
     margin-top: 25px;
-    background: url("../images/contents.png") no-repeat -143px -632px;
+    background: url("../images/contents.png") no-repeat;
 
 }
 .section4 .procedure_list .procedure_father li h4 {
@@ -467,31 +468,257 @@ header .bg {
     display: block;
 }
 /*列表图片更换*/
+.section4 .procedure_list .procedure_father li:nth-child(1) i{
+    width: 54px;
+    background-position: -143px -632px;
+
+}
 .section4 .procedure_list .procedure_father li:nth-child(2) i{
     width: 54px;
-    background: url("../images/contents.png") no-repeat -211px -630px;
+    background-position: -211px -630px;
 
 }
 .section4 .procedure_list .procedure_father li:nth-child(3) i{
     width: 60px;
-    background: url("../images/contents.png") no-repeat -288px -630px;
+    background-position: -288px -630px;
 
 }
 .section4 .procedure_list .procedure_father li:nth-child(4) i{
     width: 46px;
-    background: url("../images/contents.png") no-repeat -373px -628px;
+    background-position: -373px -628px;
 
 }
 .section4 .procedure_list .procedure_father li:nth-child(5) i{
     width: 60px;
-    background: url("../images/contents.png") no-repeat -439px -639px;
+    background-position: -439px -639px;
 
 }
 .section4 .procedure_list .procedure_father li:nth-child(6) i{
     width: 45px;
-    background: url("../images/contents.png") no-repeat -147px -705px;
+    background-position: -147px -705px;
 }
 
 /*
     第五页样式
 */
+.section5 .connect_button {
+    position: absolute;
+    width: 82px;
+    height: 84px;
+    top: 180px;
+    left: 50px;
+    background-color: #333;
+    cursor: pointer;
+}
+.section5 .connect_button div {
+    width: 82px;
+    height: 42px;
+    font: normal 16px/42px "微软雅黑";
+    color: #888;
+}
+.section5 .connect_button div:nth-child(1){
+    color: #fff;
+    background-color: #000;
+}
+.section5 .connect_message,
+.section5 .connect_message .connect_content{
+    width: 592px;
+    height: 250px;
+    text-align: left;
+}
+.section5 .connect_message {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+.section5 .connect_message .connect_content h3 {
+    font: normal 40px "微软雅黑";
+    color: #ff963d;
+    text-indent: 36px;
+    margin-bottom: 30px;
+}
+.section5 .connect_message .connect_content p {
+    font:normal 18px/34px "微软雅黑";
+    color: #000;
+    text-indent: 2em;
+}
+/*第五页底部样式*/
+.section5 {
+    background: url("../images/4.jpg") no-repeat;
+    background-size: cover;
+}
+.section5 .connect_foot {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.section5 .connect_foot_bg_content {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section5 .connect_foot_bg_content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.section5 .connect_foot_bg_content ul li {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    font: normal 16px "微软雅黑";
+    color: #fff;
+}
+.section5 .connect_foot_bg_content ul li span {
+    font: normal 20px "微软雅黑";
+    color: #ff963d;
+    margin: 0 5px;
+}
+.section5 .connect_foot_bg {
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    opacity: .6;
+    filter: alpha(opacity:60);
+}
+.section5 .connect_footer {
+    background-color: #333;
+    height: 120px;
+    vertical-align: middle;
+}
+.section5 .connect_footer i {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.section5 .connect_footer div {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+.section5 .connect_footer div p {
+    font: normal 16px "微软雅黑";
+    color: #fff;
+    clear: both;
+    overflow: hidden;
+}
+/*底部透明处样式修改*/
+@media (max-width: 1000px) {
+    .section5 .connect_foot_bg_content ul li {
+        width: 24%;
+    }
+    .section5 .connect_foot_bg_content ul li:nth-last-child(1) {
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    .section5 .connect_foot_bg_content ul li {
+        width: 32%;
+    }
+    .section5 .connect_foot_bg_content ul li:nth-last-child(1),
+    .section5 .connect_foot_bg_content ul li:nth-last-child(2) {
+        display: none;
+    }
+}
+
+/*
+    联系方式样式
+*/
+.contact_father {
+    width: 50px;
+    height: 210px;
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    top: 50%;
+    margin-top: -105px;
+}
+.contact_us {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 30px 0;
+    background-color: #333;
+}
+.contact_us ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contact_us ul li {
+    cursor: pointer;
+}
+.contact_us ul li i {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: url("../images/icons.png") no-repeat -63px -20px;
+}
+.contact_us ul li:nth-child(2) i {
+    background-position: -62px -108px;
+}
+.contact_us ul li:nth-child(3) i {
+    background-position: -59px -66px;
+}
+.contact_us ul li div {
+    display: none;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 156px;
+    height:152px;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    margin-top: -76px;
+    background-color: #333;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    cursor: text;
+}
+.contact_us ul li div p {
+    font: normal 14px "微软雅黑";
+    color: #fff;
+    text-align: left;
+}
+.contact_us ul li div a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    border: 1px solid #ff8700;
+    border-radius: 7px;
+    font: normal 18px/40px "微软雅黑";
+    color: #ff8700;
+}
+.contact_us ul li div a:hover {
+    border-color: #0f8773;
+    background-color: #0f8773;
+    color: #fff;
+}
+.contact_us ul li:hover i {
+    opacity: .6;
+    filter: alpha(opacity:60);
+}
+.contact_us ul li:hover div {
+    display: block;
+}
+/*关闭按钮*/
+#contact_us_close {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 13px;
+    bottom: -56px;
+    background: url("../images/icons.png") no-repeat 0 -640px;
+    cursor: pointer;
+}
