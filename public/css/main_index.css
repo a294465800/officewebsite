@@ -149,8 +149,8 @@ header .bg {
     第二部分
 */
 .section2 {
-    background: url("../images/1.jpg") 50%;
-    background-size: cover;
+/*    background: url("../images/1.jpg") no-repeat;
+    background-size: cover;*/
 }
 .section2 .we_do {
     margin: 0 auto;
@@ -294,8 +294,8 @@ header .bg {
     第三部分
 */
 .section3 {
-    background: url("../images/2.jpg") 50%;
-    background-size: cover;
+/*    background: url("../images/2.jpg") no-repeat;
+    background-size: cover;*/
 }
 .section3 .responsive {
     text-align: center;
@@ -312,8 +312,9 @@ header .bg {
     margin: 0 auto;
     background: url("../images/contents.png") no-repeat 0 -576px;
 }
-.section3 .responsive .responsive_logo span {
+.section3 .responsive .responsive_logo h4 {
     font: normal 24px "微软雅黑";
+    margin: 20px 0 0;
     color: #fff;
 }
 .section3 .responsive .responsive_item {
@@ -391,3 +392,106 @@ header .bg {
     height: 29px;
     background: url("../images/icons.png") no-repeat -73px -345px;
 }
+
+/*
+    第四页样式
+*/
+/*标题样式*/
+.section4 {
+/*    background: url("../images/3.jpg") no-repeat;
+    background-size: cover;*/
+}
+.section4 .procedure {
+    display: inline-block;
+    text-align: center;
+}
+.section4 .procedure i {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 37px;
+    background: url("../images/contents.png") no-repeat right -576px;
+}
+.section4 .procedure h3 {
+    font: normal 24px "微软雅黑";
+    color: #333;
+}
+/*图片列表样式*/
+.section4 .procedure_list {
+
+}
+.section4 .procedure_list .procedure_father {
+    display: inline-block;
+    list-style: none;
+    margin: 40px 0 0;
+    padding: 0;
+    vertical-align: top;
+}
+.section4 .procedure_list .procedure_father li {
+    display: inline-block;
+    width: 128px;
+    height: 238px;
+    margin:  0 20px;
+    position: relative;
+    overflow: hidden;
+}
+.section4 .procedure_list .procedure_father li u {
+    display: none;
+    width: 128px;
+    height: 128px;
+    background: url("../images/contents.png") no-repeat 0 -624px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section4 .procedure_list .procedure_father li i{
+    display: inline-block;
+    width: 54px;
+    height: 70px;
+    margin-top: 25px;
+    background: url("../images/contents.png") no-repeat -143px -632px;
+
+}
+.section4 .procedure_list .procedure_father li h4 {
+    margin-top: 40px;
+    font: bold 16px/1.4 "微软雅黑";
+    color: #333;
+}
+.section4 .procedure_list .procedure_father li p {
+    height: 60px;
+    font: normal 14px/20px "微软雅黑";
+    color: #333;
+    margin: 0;
+}
+.section4 .procedure_list .procedure_father li:hover u {
+    display: block;
+}
+/*列表图片更换*/
+.section4 .procedure_list .procedure_father li:nth-child(2) i{
+    width: 54px;
+    background: url("../images/contents.png") no-repeat -211px -630px;
+
+}
+.section4 .procedure_list .procedure_father li:nth-child(3) i{
+    width: 60px;
+    background: url("../images/contents.png") no-repeat -288px -630px;
+
+}
+.section4 .procedure_list .procedure_father li:nth-child(4) i{
+    width: 46px;
+    background: url("../images/contents.png") no-repeat -373px -628px;
+
+}
+.section4 .procedure_list .procedure_father li:nth-child(5) i{
+    width: 60px;
+    background: url("../images/contents.png") no-repeat -439px -639px;
+
+}
+.section4 .procedure_list .procedure_father li:nth-child(6) i{
+    width: 45px;
+    background: url("../images/contents.png") no-repeat -147px -705px;
+}
+
+/*
+    第五页样式
+*/
