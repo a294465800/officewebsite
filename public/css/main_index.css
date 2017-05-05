@@ -156,6 +156,12 @@ header .bg {
 .section2 .we_do {
     margin: 0 auto;
 }
+.section2 .we_do i{
+    display: inline-block;
+    width: 320px;
+    height: 31px;
+    background: url("../images/contents.png") no-repeat 0 -294px;
+}
 .section2 .we_do h3 {
     font: normal 24px/50px "微软雅黑";
     color: #333;
@@ -418,9 +424,6 @@ header .bg {
     color: #333;
 }
 /*图片列表样式*/
-.section4 .procedure_list {
-
-}
 .section4 .procedure_list .procedure_father {
     display: inline-block;
     list-style: none;
@@ -447,10 +450,9 @@ header .bg {
 }
 .section4 .procedure_list .procedure_father li i{
     display: inline-block;
-    width: 54px;
     height: 70px;
     margin-top: 25px;
-    background: url("../images/contents.png") no-repeat;
+    background: url("../images/logos.png") no-repeat;
 
 }
 .section4 .procedure_list .procedure_father li h4 {
@@ -469,33 +471,33 @@ header .bg {
 }
 /*列表图片更换*/
 .section4 .procedure_list .procedure_father li:nth-child(1) i{
-    width: 54px;
-    background-position: -143px -632px;
+    width: 47px;
+    background-position: -43px 12px;
 
 }
 .section4 .procedure_list .procedure_father li:nth-child(2) i{
     width: 54px;
-    background-position: -211px -630px;
+    background-position: 11px 12px;
 
 }
 .section4 .procedure_list .procedure_father li:nth-child(3) i{
     width: 60px;
-    background-position: -288px -630px;
+    background-position: -91px 14px;
 
 }
 .section4 .procedure_list .procedure_father li:nth-child(4) i{
     width: 46px;
-    background-position: -373px -628px;
+    background-position: -150px 14px;
 
 }
 .section4 .procedure_list .procedure_father li:nth-child(5) i{
-    width: 60px;
-    background-position: -439px -639px;
+    width: 38px;
+    background-position: -201px 14px;
 
 }
 .section4 .procedure_list .procedure_father li:nth-child(6) i{
     width: 45px;
-    background-position: -147px -705px;
+    background-position: -244px 15px;
 }
 
 /*
@@ -522,13 +524,13 @@ header .bg {
 }
 .section5 .connect_message,
 .section5 .connect_message .connect_content{
-    width: 592px;
+    width: 485px;
     height: 250px;
     text-align: left;
 }
 .section5 .connect_message {
     position: absolute;
-    top: 35%;
+    top: 30%;
     right: 15%;
 }
 .section5 .connect_message .connect_content h3 {
@@ -541,6 +543,18 @@ header .bg {
     font:normal 18px/34px "微软雅黑";
     color: #000;
     text-indent: 2em;
+}
+.section5 .connect_message .connect_content1 h3 {
+    color: #333;
+    text-indent: 0;
+}
+.section5 .connect_message .connect_content1 p {
+    text-indent: 0;
+    font-size: 16px;
+}
+.section5 .connect_message .connect_content1 h4 {
+    font: normal 30px "微软雅黑";
+    color: #333;
 }
 /*第五页底部样式*/
 .section5 {

@@ -10,7 +10,7 @@ $(function(){
     * fullPage 启动函数
     * */
     $('#myCarousel').fullpage({
-        sectionsColor : ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90','#333'],
+        sectionsColor : ['#1bbc9b', '#4BBFC3', '#7BAABE', '#fff','#333'],
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
         menu: '#menu',
         scrollingSpeed: 400
