@@ -150,8 +150,8 @@ header .bg {
     第二部分
 */
 .section2 {
-/*    background: url("../images/1.jpg") no-repeat;
-    background-size: cover;*/
+    background: url("../images/bg1.png") no-repeat;
+    background-size: cover;
 }
 .section2 .we_do {
     margin: 0 auto;
@@ -191,10 +191,10 @@ header .bg {
 }
 .section2 .we_do .sever_list li i {
     display: inline-block;
-    margin-top: 40px;
-    width: 69px;
+    margin-top: 45px;
+    width: 60px;
     height: 69px;
-    background: url("../images/contents.png") no-repeat -245px -357px;
+    background: url("../images/APP开发.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li h3 {
     font: normal 16px/30px "微软雅黑";
@@ -219,7 +219,7 @@ header .bg {
     background: none;
 }
 .section2 .we_do .sever_list li:hover i{
-    background-position: -168px -357px;
+    background: url("../images/APP开发2.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:hover p {
     top: 10px;
@@ -228,32 +228,32 @@ header .bg {
     每一张背景图修改
 */
 .section2 .we_do .sever_list li:nth-child(2) i {
-    width: 64px;
-    background-position: -416px -291px;
+    width: 74px;
+    background: url("../images/微信1.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(2):hover i{
-    background-position: -337px -291px;
+    background: url("../images/微信.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(3) i {
-    width: 76px;
-    background-position: -415px -362px;
+    width: 63px;
+    background: url("../images/系统开发1.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(3):hover i{
-    background-position: -327px -362px;
+    background: url("../images/系统开发.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(4) i {
-    width: 74px;
-    background-position: -244px -439px;
+    width: 68px;
+    background: url("../images/网站定制1.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(4):hover i{
-    background-position: -164px -439px;
+    background: url("../images/网站定制.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(5) i {
-    width: 79px;
-    background-position: -420px -439px;
+    width: 60px;
+    background: url("../images/运维1.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(5):hover i{
-    background-position: -335px -439px;
+    background: url("../images/运维.png") no-repeat 0 0;
 }
 /*
     不同宽度媒体修改
@@ -301,8 +301,8 @@ header .bg {
     第三部分
 */
 .section3 {
-/*    background: url("../images/2.jpg") no-repeat;
-    background-size: cover;*/
+    background: url("../images/bg2.png") no-repeat;
+    background-size: cover;
 }
 .section3 .responsive {
     text-align: center;
@@ -343,7 +343,7 @@ header .bg {
 }
 .section3 .responsive .responsive_part p {
     font: normal 14px/36px "微软雅黑";
-    color: #e1e1e1;
+    color: #333;
     text-align: center;
 
 }
@@ -405,8 +405,8 @@ header .bg {
 */
 /*标题样式*/
 .section4 {
-/*    background: url("../images/3.jpg") no-repeat;
-    background-size: cover;*/
+    background: url("../images/bg3.png") no-repeat;
+    background-size: cover;
 }
 .section4 .procedure {
     display: inline-block;
@@ -558,7 +558,7 @@ header .bg {
 }
 /*第五页底部样式*/
 .section5 {
-    background: url("../images/4.jpg") no-repeat;
+    background: url("../images/bg4.png") no-repeat;
     background-size: cover;
 }
 .section5 .connect_foot {
@@ -606,10 +606,10 @@ header .bg {
 }
 .section5 .connect_footer i {
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    margin-top: 10px;
+    width: 90px;
+    height: 87px;
+    background: url("../images/logo2.png") no-repeat;
+    margin: 20px 20px 0 0;
     overflow: hidden;
 }
 .section5 .connect_footer div {
@@ -726,6 +726,15 @@ header .bg {
 .contact_us ul li:hover div {
     display: block;
 }
+/*微信图片*/
+.contact_us div .weixinma {
+    display: inline-block;
+    width: 114px;
+    height: 114px;
+    background: url("../images/icons2.png") no-repeat 0 -160px;
+}
+
+
 /*关闭按钮*/
 #contact_us_close {
     width: 26px;
