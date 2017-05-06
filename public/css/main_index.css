@@ -81,7 +81,7 @@ header .header_phone i {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background: url("../images/icons.png") no-repeat;
+    background: url("/public/images/logos.png") no-repeat 0 -64px;
     margin-right: 10px;
     position: relative;
     top: 9px;
@@ -131,26 +131,26 @@ header .bg {
 #picture_rolling .item {
     height:100%;
     width:100%;
-    background: url("../images/picture1.png") no-repeat;
+    background: url("/public/images/picture1.png") no-repeat;
     background-size: cover
 }
 #picture_rolling .item:nth-child(2) {
-    background: url("../images/picture2.png") no-repeat;
+    background: url("/public/images/picture2.png") no-repeat;
     background-size: cover
 }
 #picture_rolling .item:nth-child(3) {
-    background: url("../images/picture3.png") no-repeat;
+    background: url("/public/images/picture3.png") no-repeat;
     background-size: cover
 }
 #picture_rolling .item:nth-child(4) {
-    background: url("../images/picture4.png") no-repeat;
+    background: url("/public/images/picture4.png") no-repeat;
     background-size: cover
 }
 /*
     第二部分
 */
 .section2 {
-    background: url("../images/bg1.png") no-repeat;
+    background: url("/public/images/bg1.png") no-repeat;
     background-size: cover;
 }
 .section2 .we_do {
@@ -160,7 +160,7 @@ header .bg {
     display: inline-block;
     width: 320px;
     height: 31px;
-    background: url("../images/contents.png") no-repeat 0 -294px;
+    background: url("/public/images/contents.png") no-repeat 0 -294px;
 }
 .section2 .we_do h3 {
     font: normal 24px/50px "微软雅黑";
@@ -187,14 +187,14 @@ header .bg {
     width: 156px;
     height: 156px;
     margin-left: 27px;
-    background: url("../images/contents.png") no-repeat 0 -363px;
+    background: url("/public/images/contents.png") no-repeat 0 -363px;
 }
 .section2 .we_do .sever_list li i {
     display: inline-block;
     margin-top: 45px;
     width: 60px;
     height: 69px;
-    background: url("../images/APP开发.png") no-repeat 0 0;
+    background: url("/public/images/APP开发.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li h3 {
     font: normal 16px/30px "微软雅黑";
@@ -219,7 +219,7 @@ header .bg {
     background: none;
 }
 .section2 .we_do .sever_list li:hover i{
-    background: url("../images/APP开发2.png") no-repeat 0 0;
+    background: url("/public/images/APP开发2.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:hover p {
     top: 10px;
@@ -229,31 +229,31 @@ header .bg {
 */
 .section2 .we_do .sever_list li:nth-child(2) i {
     width: 74px;
-    background: url("../images/微信1.png") no-repeat 0 0;
+    background: url("/public/images/微信1.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(2):hover i{
-    background: url("../images/微信.png") no-repeat 0 0;
+    background: url("/public/images/微信.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(3) i {
     width: 63px;
-    background: url("../images/系统开发1.png") no-repeat 0 0;
+    background: url("/public/images/系统开发1.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(3):hover i{
-    background: url("../images/系统开发.png") no-repeat 0 0;
+    background: url("/public/images/系统开发.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(4) i {
     width: 68px;
-    background: url("../images/网站定制1.png") no-repeat 0 0;
+    background: url("/public/images/网站定制1.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(4):hover i{
-    background: url("../images/网站定制.png") no-repeat 0 0;
+    background: url("/public/images/网站定制.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(5) i {
     width: 60px;
-    background: url("../images/运维1.png") no-repeat 0 0;
+    background: url("/public/images/运维1.png") no-repeat 0 0;
 }
 .section2 .we_do .sever_list li:nth-child(5):hover i{
-    background: url("../images/运维.png") no-repeat 0 0;
+    background: url("/public/images/运维.png") no-repeat 0 0;
 }
 /*
     不同宽度媒体修改
@@ -301,7 +301,7 @@ header .bg {
     第三部分
 */
 .section3 {
-    background: url("../images/bg2.png") no-repeat;
+    background: url("/public/images/bg2.png") no-repeat;
     background-size: cover;
 }
 .section3 .responsive {
@@ -317,12 +317,12 @@ header .bg {
     width: 240px;
     height: 37px;
     margin: 0 auto;
-    background: url("../images/contents.png") no-repeat 0 -576px;
+    background: url("/public/images/contents.png") no-repeat 0 -576px;
 }
 .section3 .responsive .responsive_logo h4 {
     font: normal 24px "微软雅黑";
     margin: 20px 0 0;
-    color: #fff;
+    color: #333;
 }
 .section3 .responsive .responsive_item {
     margin: 0 auto;
@@ -352,52 +352,52 @@ header .bg {
 .section3 .responsive .responsive_part .mobile {
     width: 14px;
     height: 27px;
-    background: url("../images/icons.png") no-repeat 0 -264px;
+    background: url("/public/images/icons.png") no-repeat 0 -264px;
 }
 .section3 .responsive .responsive_part .pad {
     width: 29px;
     height: 23px;
-    background: url("../images/icons.png") no-repeat -71px -264px;
+    background: url("/public/images/icons.png") no-repeat -71px -264px;
 }
 .section3 .responsive .responsive_part .pc {
     width: 35px;
     height: 27px;
-    background: url("../images/icons.png") no-repeat 0 -303px;
+    background: url("/public/images/icons.png") no-repeat 0 -303px;
 }
 .section3 .responsive .responsive_part .ie {
     width: 28px;
     height: 28px;
-    background: url("../images/icons.png") no-repeat 0 -392px;
+    background: url("/public/images/icons.png") no-repeat 0 -392px;
 }
 .section3 .responsive .responsive_part .chrome {
     width: 30px;
     height: 30px;
-    background: url("../images/icons.png") no-repeat -71px -392px;
+    background: url("/public/images/icons.png") no-repeat -71px -392px;
 }
 .section3 .responsive .responsive_part .firefox {
     width: 32px;
     height: 30px;
-    background: url("../images/icons.png") no-repeat 0 -432px;
+    background: url("/public/images/icons.png") no-repeat 0 -432px;
 }
 .section3 .responsive .responsive_part .safari {
     width: 30px;
     height: 32px;
-    background: url("../images/icons.png") no-repeat -71px -432px;
+    background: url("/public/images/icons.png") no-repeat -71px -432px;
 }
 .section3 .responsive .responsive_part .window {
     width: 27px;
     height: 27px;
-    background: url("../images/icons.png") no-repeat -73px -304px;
+    background: url("/public/images/icons.png") no-repeat -73px -304px;
 }
 .section3 .responsive .responsive_part .ios {
     width: 24px;
     height: 30px;
-    background: url("../images/icons.png") no-repeat 0 -344px;
+    background: url("/public/images/icons.png") no-repeat 0 -344px;
 }
 .section3 .responsive .responsive_part .android {
     width: 28px;
     height: 29px;
-    background: url("../images/icons.png") no-repeat -73px -345px;
+    background: url("/public/images/icons.png") no-repeat -73px -345px;
 }
 
 /*
@@ -405,7 +405,7 @@ header .bg {
 */
 /*标题样式*/
 .section4 {
-    background: url("../images/bg3.png") no-repeat;
+    background: url("/public/images/bg3.png") no-repeat;
     background-size: cover;
 }
 .section4 .procedure {
@@ -417,7 +417,7 @@ header .bg {
     margin: 0 auto;
     width: 240px;
     height: 37px;
-    background: url("../images/contents.png") no-repeat right -576px;
+    background: url("/public/images/contents.png") no-repeat right -576px;
 }
 .section4 .procedure h3 {
     font: normal 24px "微软雅黑";
@@ -443,7 +443,7 @@ header .bg {
     display: none;
     width: 128px;
     height: 128px;
-    background: url("../images/contents.png") no-repeat 0 -624px;
+    background: url("/public/images/contents.png") no-repeat 0 -624px;
     position: absolute;
     top: 0;
     left: 0;
@@ -452,7 +452,7 @@ header .bg {
     display: inline-block;
     height: 70px;
     margin-top: 25px;
-    background: url("../images/logos.png") no-repeat;
+    background: url("/public/images/logos.png") no-repeat;
 
 }
 .section4 .procedure_list .procedure_father li h4 {
@@ -558,7 +558,7 @@ header .bg {
 }
 /*第五页底部样式*/
 .section5 {
-    background: url("../images/bg4.png") no-repeat;
+    background: url("/public/images/bg4.png") no-repeat;
     background-size: cover;
 }
 .section5 .connect_foot {
@@ -608,7 +608,7 @@ header .bg {
     display: inline-block;
     width: 90px;
     height: 87px;
-    background: url("../images/logo2.png") no-repeat;
+    background: url("/public/images/logo2.png") no-repeat;
     margin: 20px 20px 0 0;
     overflow: hidden;
 }
@@ -674,7 +674,7 @@ header .bg {
     position: relative;
     width: 50px;
     height: 50px;
-    background: url("../images/icons.png") no-repeat -63px -20px;
+    background: url("/public/images/icons.png") no-repeat -63px -20px;
 }
 .contact_us ul li:nth-child(2) i {
     background-position: -62px -108px;
@@ -715,8 +715,8 @@ header .bg {
     color: #ff8700;
 }
 .contact_us ul li div a:hover {
-    border-color: #0f8773;
-    background-color: #0f8773;
+    border-color: #ff8700;
+    background-color: #ff8700;
     color: #fff;
 }
 .contact_us ul li:hover i {
@@ -731,7 +731,7 @@ header .bg {
     display: inline-block;
     width: 114px;
     height: 114px;
-    background: url("../images/icons2.png") no-repeat 0 -160px;
+    background: url("/public/images/icons2.png") no-repeat 0 -160px;
 }
 
 
@@ -742,6 +742,6 @@ header .bg {
     position: absolute;
     left: 13px;
     bottom: -56px;
-    background: url("../images/icons.png") no-repeat 0 -640px;
+    background: url("/public/images/icons.png") no-repeat 0 -640px;
     cursor: pointer;
 }
